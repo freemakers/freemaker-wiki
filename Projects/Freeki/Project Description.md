@@ -13,3 +13,4 @@ Freeki is driven by a small collection of APIs:
 - [Groovy](http://groovy.codehaus.org/) provides the foundations for the templating engine used to render the basic page structures.
 - [Gson](http://code.google.com/p/google-gson/) provides the API for customized `object <-> JSON` translation, for talking to the Javascript user interface via [REST](http://en.wikipedia.org/wiki/Representational_state_transfer) services.
 - [jQuery](http://jquery.com/) is used to make the Javascript UI easier to manage.
+- [jGit](http://www.eclipse.org/jgit/) is used to store content revisions in the wiki Git repository.
