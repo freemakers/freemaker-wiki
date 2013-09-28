@@ -60,7 +60,7 @@ if ( path.length > 0 ){
   <script type="text/javascript" src="/static/js/wikiMain.js"></script>
   <script>
     \$(document).ready(function(){
-      init("");
+      init();
     });
   </script>
   <script type="text/javascript" src="/static/js/branding.js"></script>

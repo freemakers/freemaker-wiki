@@ -22,6 +22,7 @@
 </div>
 <div id="page-main" class="main-content">
 <div id="page-content">
+${data.content}
 </div>
 </div>
 
@@ -37,11 +38,11 @@
       </span>
     </div>
   </footer>
-
+  
   <script type="text/javascript" src="/static/js/wikiMain.js"></script>
   <script>
     \$(document).ready(function(){
-      init("${data.content}");
+      init();
     });
   </script>
   <script type="text/javascript" src="/static/js/branding.js"></script>

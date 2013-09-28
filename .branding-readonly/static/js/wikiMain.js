@@ -1,7 +1,10 @@
-function init( pageContent ){
-  converter = new Markdown.Converter();
+function init(){
+  var pageContent = $('#page-content');
+  if (pageContent){
+    var converter = new Markdown.Converter();
 
-  var rendered = converter.makeHtml(pageContent);
-  $('#page-content').html(rendered);
+    var rendered = converter.makeHtml($(pageContent).text());
+    $(pageContent).html(rendered);
+  }
 }
 
