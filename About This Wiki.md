@@ -6,4 +6,5 @@ TITLE: About This Wiki
 This is a wiki whose display and modifications are managed by [Freeki](/wiki/Projects/Freeki/Project%20Description#). Content is stored primarily in Markdown format, with the following special directories:
 
 - **/.branding**  - Theming for this instance of Freeki content is stored here.
+- **/.branding-readonly**  - Theming for the read-only website view of the content is stored here.
 - **/.templates** - Extra templates unique to this instance of Freeki are stored here.
