@@ -57,12 +57,6 @@ if ( path.length > 0 ){
 </div>
 </footer>
 
-  <script type="text/javascript" src="/static/js/wikiMain.js"></script>
-  <script>
-    \$(document).ready(function(){
-      init();
-    });
-  </script>
   <script type="text/javascript" src="/static/js/branding.js"></script>
   <script type="text/javascript" src="/static/js/group-extras.js"></script>
 </body>

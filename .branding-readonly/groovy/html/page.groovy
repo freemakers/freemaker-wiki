@@ -39,16 +39,6 @@ ${rendered}
     </div>
   </footer>
   
-  <div id="markdown" style="display:none">
-  ${data.content}
-  </div>
-  
-  <script type="text/javascript" src="/static/js/wikiMain.js"></script>
-  <script>
-    \$(document).ready(function(){
-      init();
-    });
-  </script>
   <script type="text/javascript" src="/static/js/branding.js"></script>
   <script type="text/javascript" src="/static/js/page-extras.js"></script>
 </body>
