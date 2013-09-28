@@ -1,7 +1,9 @@
 <!-- Freeki metadata. Do not remove this section!
 TITLE: Wiki for the Free State Maker Society
 -->
-# Wiki for the Free State Maker Society
+# README
+
+## Wiki for the Free State Maker Society
 
 This is a wiki whose display and modifications are managed by [Freeki](https://github.com/jdcasey/freeki). Content is stored primarily in Markdown format, with the following special directories:
 
