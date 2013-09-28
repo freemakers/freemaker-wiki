@@ -1,10 +1,7 @@
-// var myUrl;
-// var parentUrl;
-// var group;
+function init( pageContent ){
+  converter = new Markdown.Converter();
 
-function init( url, parent, groupName ){
-  // myUrl = url;
-  // parentUrl = parent;
-  // group = groupName;
+  var rendered = converter.makeHtml(pageContent);
+  $('#page-content').html(rendered);
 }
 

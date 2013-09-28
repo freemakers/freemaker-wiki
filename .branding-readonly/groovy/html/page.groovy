@@ -41,7 +41,7 @@
   <script type="text/javascript" src="/static/js/wikiMain.js"></script>
   <script>
     \$(document).ready(function(){
-      init('/api/page/${data.id}', '/wiki/${data.group}/', '${data.group}' );
+      init("${data.content}");
     });
   </script>
   <script type="text/javascript" src="/static/js/branding.js"></script>
