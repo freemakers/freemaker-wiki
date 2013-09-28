@@ -1,10 +1,10 @@
 function init(){
-  var pageContent = $('#page-content');
-  if (pageContent){
-    var converter = new Markdown.Converter();
-
-    var rendered = converter.makeHtml($(pageContent).text());
-    $(pageContent).html(rendered);
-  }
+  // var markdown = $('#markdown');
+  // if (markdown){
+  //   var converter = new Markdown.Converter();
+  // 
+  //   var rendered = converter.makeHtml($(markdown).html());
+  //   $('#page-content').html(rendered);
+  // }
 }
 

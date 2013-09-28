@@ -22,7 +22,7 @@
 </div>
 <div id="page-main" class="main-content">
 <div id="page-content">
-${data.content}
+${rendered}
 </div>
 </div>
 
@@ -38,6 +38,10 @@ ${data.content}
       </span>
     </div>
   </footer>
+  
+  <div id="markdown" style="display:none">
+  ${data.content}
+  </div>
   
   <script type="text/javascript" src="/static/js/wikiMain.js"></script>
   <script>
