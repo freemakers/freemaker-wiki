@@ -9,9 +9,3 @@ The Free State Maker Society is a nascent maker group in Lawrence, KS. We're jus
 
 We're starting this on a shoestring without much more than passion for creating new things and some rough tools in our garages. We'll see how far the decentralized model gets us.
 
-## About this Wiki
-
-This is a wiki whose display and modifications are managed by [Freeki](https://github.com/jdcasey/freeki). Content is stored primarily in Markdown format, with the following special directories:
-
-- **/.branding**  - Theming for this instance of Freeki content is stored here.
-- **/.templates** - Extra templates unique to this instance of Freeki are stored here.
