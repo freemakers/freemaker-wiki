@@ -23,4 +23,4 @@ The hardware design basically revolves around the Raspberry Pi, model A. Other h
 
 The base system will be the Raspbian flavor of Debian linux, which has been built with the RPi hardware requirements in mind. On top of this, the system will use [Avahi](http://en.wikipedia.org/wiki/Avahi_%28software%29) for mDNS announcements, [hostap](http://en.wikipedia.org/wiki/HostAP) for hosting its own WiFi network, and [Freeki](/wiki/Projects/Freeki/Project%20Description) for the wiki.
 
-This is the basic setup; it's certainly possible that other software (such as <code>dhcpd</code>) will be required in order to support these three essential services.
+This is the basic setup; it's certainly possible that other software (such as `dhcpd`) will be required in order to support these three essential services.
