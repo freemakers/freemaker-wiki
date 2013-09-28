@@ -1,5 +1,5 @@
 body{
-/*  margin-left: 200px;*/
+  margin-left: 100px;
 }
 
 .branding-header{
@@ -7,6 +7,10 @@ body{
   color: white;
   width: 1200px;
   height: 150px;
+}
+
+#page-content{
+  width: 1200px;
 }
 
 footer{
