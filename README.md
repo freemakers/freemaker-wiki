@@ -1,5 +1,5 @@
 <!-- Freeki metadata. Do not remove this section!
-TITLE: Wiki for the Free State Maker Society
+TITLE: README
 -->
 
 # README
