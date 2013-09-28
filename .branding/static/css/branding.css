@@ -35,10 +35,10 @@ footer{
 
 #fm-footer {
   float: left;
-	padding-right: 20px;
-	padding-left: 5px;
-	padding-top: 3px;
-	padding-bottom: 2px;
+  padding-right: 20px;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 2px;
 }
 
 #group-name {
@@ -46,88 +46,92 @@ footer{
 }
 
 .generated-on {
-	padding-left: 20px;
-	padding-right: 5px;
-	padding-top: 3px;
-	padding-bottom: 2px;
-	float: right;
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  float: right;
 }
 
 .freeki-branding-help, .freeki-plug{display:none;}
 
 #page-edit {
-	width: 1200px;
-	min-height: 600px;
+  width: 1200px;
+  min-height: 600px;
 }
 
 #editor-content{
-	margin-top: 10px;
-	min-height: 570px;
-	margin-bottom: 10px;
+  margin-top: 10px;
+  min-height: 570px;
+  margin-bottom: 10px;
 }
 
 #editor-panel {
-	width: 1190px;
-	min-height: 500px;
-	float: left;
-	padding: 0px;
+  width: 1190px;
+  min-height: 500px;
+  float: left;
+  padding: 0px;
 }
 
 #page-editor {
-	width: 900px;
-	min-height: 480px;
-	float: left;
-	margin: 10px;
+  width: 900px;
+  min-height: 480px;
+  float: left;
+  margin: 10px;
 }
 
 #wmd-input {
-	margin-top: 10px;
-	width: 1160px;
-	min-height: 450px;
+  margin-top: 10px;
+  width: 1160px;
+  min-height: 450px;
 }
 
 #wmd-button-row {
-	width: 1160px;
+  width: 1160px;
 }
 
 #page-edit-help {
-	display: none;
-	width: 250px;
-	min-height: 475px;
-	padding: 5px;
-	margin-top: 25px;
-	margin-left: 930px;
-	background-color: #ffffcc;
+  display: none;
+  width: 250px;
+  min-height: 475px;
+  padding: 5px;
+  margin-top: 25px;
+  margin-left: 930px;
+  background-color: #ffffcc;
 }
 
 #preview-panel {
-	width: 1160px;
-	margin: 10px;
-	padding: 5px;
-	margin-right: 0px;
-	min-height: 490px;
-    color: red;
-    background-color: yellow;
+  width: 1160px;
+  margin: 10px;
+  padding: 5px;
+  margin-right: 0px;
+  min-height: 490px;
+  background-color: #ddd;
+  color: #111;
+}
+
+#preview-panel a{
+  color: #11d;
 }
 
 #buttonbar-editor-controls{
-	clear: both;
+  clear: both;
 }
 
 .breadcrumbs {
-	display: block;
-    margin-top: 15px;
-	width: 1200px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	border: 1px solid #aaaaaa;
+  display: block;
+  margin-top: 15px;
+  width: 1200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #aaaaaa;
 }
 
 .breadcrumb {
-	margin-left: 5px;
-	margin-right: 2px;
+  margin-left: 5px;
+  margin-right: 2px;
 }
 
 a.breadcrumb {
-	text-decoration: none;
+  text-decoration: none;
 }
