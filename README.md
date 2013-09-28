@@ -9,5 +9,4 @@ The Free State Maker Society is a nascent maker group in Lawrence, KS. We're jus
 
 We're starting this on a shoestring without much more than passion for creating new things and some rough tools in our garages. We'll see how far the decentralized model gets us.
 
-**FOO**
 
