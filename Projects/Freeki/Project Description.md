@@ -5,6 +5,14 @@ TITLE: Project Description
 
 Freeki is a wiki system designed from the ground up to be as minimal as possible in terms of the server that runs it. The application started out as a training exercise to learn the Vert.x Java API, and turned into a fun challenge to see how much functionality I could add to something so small.
 
+## Features
+
+- Documents are written in [Markdown](http://daringfireball.net/projects/markdown/syntax) format, and edited via javascript-driven Markdown editor
+- Documents modifications are stored on the filesystem as revisions in a [Git](http://git-scm.com/) repository, enabling decentralized modification, forking of content, and so on.
+- The basic wiki is enhanced with jQuery-enabled javascript to introduce WSIWYG editor features, or whatever else you want
+- Javascript, CSS, images, and more can be 'skinned' uniquely for each wiki using a branding directory embedded in the Git repository used to store wiki content.
+- The wiki server supports a read-only mode, where all editors are disabled and POST/PUT/DELETE requests are denied. This enables publishing the wiki as a website with the addition of only one command-line configuration. 
+
 ## Technology
 
 Freeki is driven by a small collection of APIs:
