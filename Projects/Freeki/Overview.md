@@ -1,7 +1,7 @@
 <!-- Freeki metadata. Do not remove this section!
-TITLE: Project Description
+TITLE: Project Overview
 -->
-#Project Description
+#Project Overview
 
 Freeki is a wiki system designed from the ground up to be as minimal as possible in terms of the server that runs it. The application started out as a training exercise to learn the Vert.x Java API, and turned into a fun challenge to see how much functionality I could add to something so small.
 

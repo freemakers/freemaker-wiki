@@ -1,7 +1,7 @@
 <!-- Freeki metadata. Do not remove this section!
-TITLE: Project Description
+TITLE: Project Overview
 -->
-# Project Description
+# Project Overview
 
 The Freeki-Collab project is a hybrid hardware-software design that aims to create a device to provide note-taking and other collaboration software that doesn't require an AC outlet, an internet connection, or any other kind of infrastructural support besides the client machines used to access it.
 

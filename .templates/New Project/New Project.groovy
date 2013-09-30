@@ -9,14 +9,14 @@ public class NewProjectAction implements TemplateAction {
       def group = "Projects/${name}"
       
       def descPg = """\
-# Project Description
+# Project Overview
 
 *Enter a description for your project here.*
       """
       
       def tstamp = System.currentTimeMillis();
       
-      store.storePage( new Page( group, "Project Description", descPg, "Project Description", tstamp, null ) );
+      store.storePage( new Page( group, "Overview", descPg, "Project Overview", tstamp, null ) );
       
       return "/wiki/${group}/"
   }
