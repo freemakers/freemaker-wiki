@@ -1,6 +1,6 @@
 // $(document).ready(function(){
 $('.branding-header').html(
-  '<a href="http://www.freestatemakers.org/wiki/"><img id="fm-logo" height="125px" src="/static/images/FreeMakers-Logo1.png"/></a><div id="fm-title"><a href="http://www.freestatemakers.org/wiki/"><span id="fm-title-content">Free State Maker Society</span></a></div>'
+  '<a href="/wiki/"><img id="fm-logo" height="125px" src="/static/images/FreeMakers-Logo1.png"/></a><div id="fm-title"><a href="/wiki/"><span id="fm-title-content">Free State Maker Society</span></a></div>'
 );
 
 $('footer').prepend(
