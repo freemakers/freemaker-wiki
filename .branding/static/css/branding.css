@@ -1,4 +1,8 @@
 
+body{
+	background-image: url(/static/images/graph-paper.png);
+}
+
 #fm-logo{
   margin: 10px;
 }
