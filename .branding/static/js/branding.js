@@ -1,4 +1,5 @@
 // $(document).ready(function(){
+document.title='Free State Maker Society'
 $('.branding-header').html(
   '<a href="/wiki/"><img id="fm-logo" height="125px" src="/static/images/FreeMakers-Logo1.png"/></a><div id="fm-title"><a href="/wiki/"><span id="fm-title-content">Free State Maker Society</span></a></div>'
 );
