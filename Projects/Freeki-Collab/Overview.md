@@ -3,7 +3,7 @@ TITLE: Project Overview
 -->
 # Project Overview
 
-The Freeki-Collab project is a hybrid hardware-software design that aims to create a device to provide note-taking and other collaboration software that doesn't require an AC outlet, an internet connection, or any other kind of infrastructural support besides the client machines used to access it.
+The FreeLab project is a hybrid hardware-software design that aims to create a device to provide note-taking and other collaboration software that doesn't require an AC outlet, an internet connection, or any other kind of infrastructural support besides the client machines used to access it.
 
 ## Goals
 
@@ -15,7 +15,7 @@ The Freeki-Collab project is a hybrid hardware-software design that aims to crea
 
 ## Hardware Design
 
-![hardware design diagram](/static/images/freeki-collab/hardware-design.png)
+![hardware design diagram](/static/images/freelab/hardware-design.png)
 
 The hardware design basically revolves around the Raspberry Pi, model A. Other hardware pieces are only necessary to provide off-grid power for the RPi. This includes a large LiPo cell with charger and DC-DC boost converter. While it's possible to use two LiPo cells and avoid the boost converter, this drastically complicates the circuit required to charge the system. So, there is a trade-off and it's not clear which is the better approach.
 
