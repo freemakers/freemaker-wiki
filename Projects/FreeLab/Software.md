@@ -16,9 +16,7 @@ The base system will be the Raspbian flavor of Debian linux, which has been buil
 
 ### Wiki
 
-Of course, the main service initially planned for this appliance is:
-
-- [Freeki](/wiki/Projects/Freeki/Project%20Description) for the wiki
+Of course, the main service initially planned for this appliance is [Freeki](/wiki/Projects/Freeki/Overview).
 
 ### File Sharing
 
