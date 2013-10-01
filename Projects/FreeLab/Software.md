@@ -21,15 +21,15 @@ When using the wiki on the Raspberry Pi, it's critical to use Oracle Java 7 inst
 
 To install:
 
-    $ aptitude update
-    $ aptitude -y install oracle-java7-jdk
+    $ sudo aptitude update
+    $ sudo aptitude -y install oracle-java7-jdk
 
 ### Avahi
 
 To install and enable Avahi:
 
-    $ aptitude -y install avahi-daemon avahi-utils
-    $ update-rc.d avahi-daemon enable
+    $ sudo aptitude -y install avahi-daemon avahi-utils
+    $ sudo update-rc.d avahi-daemon enable
 
 ### Hostapd
 
@@ -39,7 +39,17 @@ This one is a little trickier, depending on the wifi dongle you're using. I'm us
 
 You still need to install hostapd from Raspbian:
 
-    $ aptitude -y install hostapd
+    $ sudo aptitude -y install hostapd
+
+After this installs, download and update the `hostapd` executable:
+
+    $ sudo su -
+    $ wget http://www.daveconroy.com/wp3/wp-content/uploads/2013/07/hostapd.zip
+    $ unzip hostapd.zip 
+    $ mv /usr/sbin/hostapd /usr/sbin/hostapd.bak
+    $ mv hostapd /usr/sbin/hostapd
+    $ chown root.root /usr/sbin/hostapd 
+    $ chmod 755 /usr/sbin/hostapd
 
 Then, you'll need to configure it. I'm using the following `/etc/hostapd/hostapd.conf` file:
 
