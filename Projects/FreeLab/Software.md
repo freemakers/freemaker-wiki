@@ -60,6 +60,10 @@ Then, you'll need to configure it. I'm using the following `/etc/hostapd/hostapd
 
 Now, a lot of the more traditional settings are missing from this configuration. First, it's completely wide open...which supports an environment of transparency and collaboration. Still, it may not be right for all use cases. Besides that, I'm not configuring a bridge for network connectivity to the internet. This is because the FreeLab is meant to operate in isolation, without the benefit of an internet uplink.
 
+Next, enable the `hostapd` service. Edit the `/etc/default/hostapd` file and add the line:
+
+    DAEMON_CONF="/etc/hostapd/hostapd.conf"
+
 Finally, you'll need to setup your wifi connection to use a static IP address. Edit `/etc/network/interfaces`, commenting out the existing `wlan0` and `wpa_supplicant` lines in the configuration and adding this:
 
     iface wlan0 inet static
