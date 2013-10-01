@@ -15,7 +15,8 @@ The FreeLab project is a hybrid hardware-software design that aims to create a d
 
 ## Status
 
-- Freeki software is largely stable, but it's still missing features for the content fork/push sync actions that will be critical to this project. See [Simplified Collaboration Feature](http://localhost:8080/wiki/Projects/Freeki/Planning/Simplified%20Collaboration%20Feature#).
+- Freeki software is largely stable, but it's still missing features for the content fork/push sync actions that will be critical to this project.
+    - See [Simplified Collaboration Feature](http://localhost:8080/wiki/Projects/Freeki/Planning/Simplified%20Collaboration%20Feature#).
 - Established that the RPi model A doesn't have enough RAM to run Freeki + Debian, much less Avahi + hostap + DHCPd. Testing on RPi model B now, which shouldn't have any problem.
 - Waiting on parts to assemble a prototype case + battery circuit to take the RPi off-grid
 
@@ -50,6 +51,17 @@ The hardware design basically revolves around the Raspberry Pi, model A. Other h
 
 ## Software
 
-The base system will be the Raspbian flavor of Debian linux, which has been built with the RPi hardware requirements in mind. On top of this, the system will use [Avahi](http://en.wikipedia.org/wiki/Avahi_%28software%29) for mDNS announcements, [hostap](http://en.wikipedia.org/wiki/HostAP) for hosting its own WiFi network, and [Freeki](/wiki/Projects/Freeki/Project%20Description) for the wiki.
+The base system will be the Raspbian flavor of Debian linux, which has been built with the RPi hardware requirements in mind. On top of this, the system will use:
 
-This is the basic setup; it's certainly possible that other software (such as `dhcpd`) will be required in order to support these three essential services.
+- [Avahi](http://en.wikipedia.org/wiki/Avahi_%28software%29) for mDNS announcements
+- [hostap](http://en.wikipedia.org/wiki/HostAP) for hosting its own WiFi network
+- [dhcpd](http://en.wikipedia.org/wiki/DHCPD) for allocating IP addresses to clients
+- [git](http://www.git-scm.com) for operating-system-level automation scripts, etc.
+
+And, of course:
+
+- [Freeki](/wiki/Projects/Freeki/Project%20Description) for the wiki
+
+
+It may also be a good idea to expose a few locations on the RPi via [Samba](http://en.wikipedia.org/wiki/Samba_%28software%29). For one thing, exposing the wiki content directory this way would enable non-web editors. Beyond this, it may be useful to have a dead-drop style share for files that aren't destined for the wiki, as a free-form collaboration feature.
+
