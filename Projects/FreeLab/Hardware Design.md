@@ -7,9 +7,9 @@ TITLE: Hardware Design
 
 The hardware design basically revolves around the Raspberry Pi, model A. Other hardware pieces are only necessary to provide off-grid power for the RPi. This includes a large LiPo cell with charger and DC-DC boost converter. While it's possible to use two LiPo cells and avoid the boost converter, this drastically complicates the circuit required to charge the system. So, there is a trade-off and it's not clear which is the better approach.
 
-### Prototype Case + Battery Circuit
+## Prototype Case + Battery Circuit
 
-#### Parts List
+### Parts List
 
 - [Hammond 1590XXOR Aluminum case](http://amzn.com/B0080GWL8A)
 - [Waterproof Blue LED On/Off Switch](http://www.adafruit.com/products/915)
