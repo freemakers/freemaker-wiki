@@ -12,6 +12,14 @@ The base system will be the Raspbian flavor of Debian linux, which has been buil
 - [dhcpd](http://en.wikipedia.org/wiki/DHCPD) for allocating IP addresses to clients
 - [git](http://www.git-scm.com) for operating-system-level automation scripts, etc.
 
+## Java
+
+This is separated from the Operating System section mainly because it's critical to getting any sort of reasonable performance out of the wiki. When using the wiki on the Raspberry Pi, it's critical to use Oracle Java 7 instead of OpenJDK 7. To install:
+
+    $ aptitude update
+    $ aptitude -y install oracle-java7-jdk
+
+
 ## Services
 
 ### Wiki
