@@ -3,7 +3,11 @@ TITLE: Simplified Collaboration Feature
 -->
 #Simplified Collaboration Feature
 
-If you're comfortable with Java and GitHub, it's relatively simple to fork the Git repository backing this website, setup your own local Freeki instance, edit the content, push your changes to your fork, and create a pull request. However, there are at least two good reasons that this isn't simple enough:
+If you're comfortable with Java and GitHub, it's relatively simple to fork the Git repository backing this website, setup your own local Freeki instance, edit the content, push your changes to your fork, and create a pull request. 
+
+[Here][1] are the steps in more detail.
+
+However, there are at least two good reasons that this isn't simple enough:
 
 1. Not everyone is a Java + GitHub expert, and they shouldn't have to be in order to contribute.
 
@@ -29,3 +33,4 @@ We should also look into generating a JNLP (Java Web Start) file tuned to a part
 5. Start a local, editable Freeki instance pointed at the freshly cloned repository
 
 
+  [1]: http:///wiki/Projects/Freeki/Run%20Your%20Own%20Copy#
