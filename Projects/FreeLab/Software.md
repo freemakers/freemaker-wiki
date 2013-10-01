@@ -24,6 +24,42 @@ To install:
     $ aptitude update
     $ aptitude -y install oracle-java7-jdk
 
+### Avahi
+
+To install and enable Avahi:
+
+    $ aptitude -y install avahi-daemon avahi-utils
+    $ update-rc.d avahi-daemon enable
+
+### Hostapd
+
+This one is a little trickier, depending on the wifi dongle you're using. I'm using an Edimax, which means I need to use the `rtl871xdrv` driver. Unfortunately, the `hostapd` that comes with Raspbian (the RPi Debian distro) doesn't support this driver. I found a blog post that covers it, though:
+
+[http://www.daveconroy.com/turn-your-raspberry-pi-into-a-wifi-hotspot-with-edimax-nano-usb-ew-7811un-rtl8188cus-chipset/](http://www.daveconroy.com/turn-your-raspberry-pi-into-a-wifi-hotspot-with-edimax-nano-usb-ew-7811un-rtl8188cus-chipset/)
+
+You still need to install hostapd from Raspbian:
+
+    $ aptitude -y install hostapd
+
+Then, you'll need to configure it. I'm using the following `/etc/hostapd/hostapd.conf` file:
+
+    interface=wlan0
+    ssid=freelab0
+    wpa=0
+    channel=1
+
+Now, a lot of the more traditional settings are missing from this configuration. First, it's completely wide open...which supports an environment of transparency and collaboration. Still, it may not be right for all use cases. Besides that, I'm not configuring a bridge for network connectivity to the internet. This is because the FreeLab is meant to operate in isolation, without the benefit of an internet uplink.
+
+Finally, you'll need to setup your wifi connection to use a static IP address. Edit `/etc/network/interfaces`, commenting out the existing `wlan0` and `wpa_supplicant` lines in the configuration and adding this:
+
+    iface wlan0 inet static
+        address 10.0.0.1
+        netmask 255.255.255.0
+
+**NOTE:** You'll want preserve the old `wlan0` configurations so you can restore them in order to re-establish internet access for system updates.
+
+Now reboot, and your RPi should come up as a wifi access point.
+
 
 ## Services
 
