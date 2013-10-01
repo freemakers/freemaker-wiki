@@ -33,4 +33,4 @@ We should also look into generating a JNLP (Java Web Start) file tuned to a part
 5. Start a local, editable Freeki instance pointed at the freshly cloned repository
 
 
-  [1]: http:///wiki/Projects/Freeki/Run%20Your%20Own%20Copy#
+  [1]: /wiki/Projects/Freeki/Run%20Your%20Own%20Copy#
