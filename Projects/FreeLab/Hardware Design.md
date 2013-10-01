@@ -15,7 +15,7 @@ The hardware design basically revolves around the Raspberry Pi, model A. Other h
 - [Waterproof Blue LED On/Off Switch](http://www.adafruit.com/products/915)
 - [Tenergy LiPo 3.7V 4500 mAh Battery](http://is.gd/XldCev)
 - [DC Voltage Booster Transformer](http://is.gd/CIk0p2)
-- [USB Micro-B connector](www.adafruit.com/products/1390)
+- [USB Micro-B connector](http://www.adafruit.com/products/1390)
 - [LiPo Charger](https://www.sparkfun.com/products/10217)
 - [Raspberry Pi Model B](http://is.gd/SJAygC)
 - [Sugru](http://www.adafruit.com/products/436) (for sealing holes, sticking things down, etc.)
