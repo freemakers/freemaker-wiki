@@ -17,7 +17,9 @@ The FreeLab project is a hybrid hardware-software design that aims to create a d
 
 - Freeki software is largely stable, but it's still missing features for the content fork/push sync actions that will be critical to this project.
     - See [Simplified Collaboration Feature](http://localhost:8080/wiki/Projects/Freeki/Planning/Simplified%20Collaboration%20Feature#).
-- Established that the RPi model A doesn't have enough RAM to run Freeki + Debian, much less Avahi + hostap + DHCPd. Testing on RPi model B now, which shouldn't have any problem.
+- Tested on RPi Model A.
+    - Model A doesn't have enough RAM to run Freeki + Debian, much less Avahi + hostap + DHCPd
+    - Testing on RPi model B next, which shouldn't have any problem
 - Waiting on parts to assemble a prototype case + battery circuit to take the RPi off-grid
 
 ## ToDo's
