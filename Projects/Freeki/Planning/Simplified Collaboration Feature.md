@@ -7,7 +7,7 @@ If you're comfortable with Java and GitHub, it's relatively simple to fork the G
 
 [Here][1] are the steps in more detail.
 
-However, there are at least two good reasons that this isn't simple enough:
+If you read the link above, it will be obvious that there's room for improvement. There are at least two good reasons that this isn't simple enough:
 
 1. Not everyone is a Java + GitHub expert, and they shouldn't have to be in order to contribute.
 
