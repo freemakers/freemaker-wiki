@@ -34,5 +34,3 @@ The FreeLab project is a hybrid hardware-software design that aims to create a d
 
 - [Hardware Design](Hardware%20Design)
 - [Software](Software)
-
-<div class="embedded-content" page="Hardware%20Design"></div>
