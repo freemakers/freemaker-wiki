@@ -1,7 +1,7 @@
 <!-- Freeki metadata. Do not remove this section!
-TITLE: Run Your Own Copy
+TITLE: Get Freeki!
 -->
-#Run Your Own Copy
+#Get Freeki!
 
 A fundamental part of the shared-wiki workflow of Freeki is setting up and running local copies of the server for editing content. Establishing a local Freeki instance involves the following rough steps:
 
