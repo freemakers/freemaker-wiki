@@ -18,9 +18,10 @@ If you read the link above, it will be obvious that there's room for improvement
 GitHub has an API for creating forks and pull requests. jGit has support for both pull and push operations. Using a REST endpoint, we should be able to support something like a "Push" button on the local editable instance, which would:
 
 1. Push up to GitHub
-    1. As a side effect, any configured hooks get fired, which (for this wiki at least) would ping the view-mode wiki server to update its content. (**WORKS as of 2013-10-02**; using Push Updates button on an editable wiki.)
+    - As a side effect, any configured hooks get fired, which (for this wiki at least) would ping the view-mode wiki server to update its content.
+    - **THIS WORKS as of 2013-10-02**; using Push Updates button on an editable wiki.
 2. Maybe also fire off the GH create-pull-request operation 
-    1. We probably want to think about making this optional in case we want to decouple from GH
+    - We probably want to think about making this optional in case we want to decouple from GH
 
 ## Forking
 
